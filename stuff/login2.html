@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            background-color: rgb(171, 233, 212);
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000000;
+            background-color: #e6e4ee;
+        }
+        header {
+            background-color: darkslategray;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 40px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Login</header>
+        <form id="login-form" action="login.php" method="post">
+            <p>User name:<input type="text" id="username" required></p>
+            <p>Password:<input type="password" id="password" required></p>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const loginForm = document.getElementById('login-form');
+            const usernameInput = document.getElementById('username');
+            const passwordInput = document.getElementById('password');
+
+            loginForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const username = usernameInput.value.trim();
+                const password = passwordInput.value;
+
+                if (username === '' || password === '') {
+                    alert('Please enter both username and password.');
+                } else {
+                    // Replace the following line with your authentication logic
+                    alert('Form submitted. This is just a basic example.');
+                    // loginForm.submit(); // Uncomment this line to actually submit the form
+                }
+            });
+        });
+    </script>
+</body>
+</html>
