@@ -1,9 +1,9 @@
 const petsData = [
     {
-      name: 'Bataku',
-      species: 'Duck',
-      age: 1,
-      image: 'https://i.pinimg.com/originals/ca/cf/c2/cacfc23a467744c147a7b3b193171178.jpg',
+      name: 'Charlie',
+      species: 'Dog',
+      age: 6,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqLFo7w6KdVMLb43RTDL1RMW0y3RXSGolpcQ&usqp=CAU',
     },
     {
       name: 'Jojo',
@@ -62,10 +62,10 @@ const petsData = [
       }, 
     // 3rd line
     {
-      name: 'Bataku',
-      species: 'Duck',
+      name: 'Luna',
+      species: 'Dog',
       age: 1,
-      image: 'https://i.pinimg.com/originals/ca/cf/c2/cacfc23a467744c147a7b3b193171178.jpg',
+      image: 'https://c0.wallpaperflare.com/preview/146/156/1022/united-states-orange-dog-large-dog.jpg',
     },
     {
       name: 'Jojo',
